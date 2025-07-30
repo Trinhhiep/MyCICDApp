@@ -21,7 +21,7 @@ jobs:
       with:
         xcode-version: latest-stable
         
-    - name: Build and test
+    - name: Build only
       run: |
         xcodebuild -project MyCICDApp.xcodeproj \
                    -scheme MyCICDApp \
